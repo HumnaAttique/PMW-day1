@@ -7,8 +7,8 @@
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Courier New', monospace; background: #0A1628; color: #ffffff; }
-        header { padding: 40px; border-bottom: 1px solid #C9A84C; }
-        .logo { font-size: 28px; font-weight: bold; color: #C9A84C; }
+        header { padding: 30px 40px; border-bottom: 1px solid #C9A84C; display: flex; align-items: center; gap: 16px; }
+        .logo-text { font-size: 28px; font-weight: bold; color: #C9A84C; }
         .tagline { color: #aaaaaa; margin-top: 8px; font-size: 14px; }
         .hero { padding: 80px 40px; text-align: center; }
         .hero h1 { font-size: 48px; color: #C9A84C; margin-bottom: 20px; }
@@ -29,11 +29,15 @@
 <body>
 
 <header>
-    <div class="logo">HeriStack</div>
-    <div class="tagline">Building digital tools for cultural heritage preservation — PreserveMy.World</div>
+    <img src="heristack_logo.png.png" alt="HeriStack Logo" style="width:60px; height:60px; object-fit:contain; border-radius:8px;">
+    <div>
+        <div class="logo-text">HeriStack</div>
+        <div class="tagline">Building digital tools for cultural heritage preservation — PreserveMy.World</div>
+    </div>
 </header>
 
 <div class="hero">
+    <img src="heristack_logo.png.png" alt="HeriStack Logo" style="width:100px; height:100px; object-fit:contain; border-radius:12px; margin-bottom:24px;">
     <h1>Preserve the Past.<br>Build the Future.</h1>
     <p>HeriStack is a web engineering team using modern technology to digitally preserve Pakistan's cultural heritage sites before they are lost forever.</p>
     <a href="https://github.com/HumnaAttique/PMW-day1" class="btn">View Our Work on GitHub</a>
